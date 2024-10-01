@@ -1,0 +1,35 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.taskContainer{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border: 2px solid gray;
+    width: 28rem;
+    height: auto;
+    margin: 6px;
+    /* max-width: 8px; */
+    border-radius: 12px;
+    background-color: aliceblue;
+    
+}
+.textArea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    /* margin: 6px; */
+}
+.btnDel{
+    background-color: rgb(223, 39, 39);
+    color: white;
+}
+.btnDone{
+    background-color: rgb(233, 233, 43);
+}
+.active{
+    background-color: rgb(102, 231, 123);
+}
